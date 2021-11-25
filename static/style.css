@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgb(206, 193, 193);
+    padding: 10px 5px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+#navbar li{
+  list-style: none;
+}
+#navbar li a{
+  text-decoration: none;
+  padding: 8px 29px;
+  font-size: 19px;
+  color:black;
+  font-weight: bold;
+}
+#navbar li a:hover{
+  color:gray;
+}
+#introSection{
+ background: center/cover no-repeat url('/static/bg.jpg');
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height: 400px;
+ color:white;
+ font-family: 'Shippori Antique B1', sans-serif;
+ font-size: 40px;
+ flex-direction: column;
+ padding-bottom: 20px;
+}
+#introSection div.small{
+    font-size:30px ;
+    /* font-weight: bold; */
+}
+#missionSection{
+  height: 300px;
+  background-color: rgb(206, 193, 193);
+}
+#missionSection h2{
+  text-align: center;
+  padding-top: 19px;
+  font-size: 26px;
+}
+.card{
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: 22px;
+  display: inline-block;
+  height: 210px
+}
+.card h3{
+  text-align:center;
+  margin: 12px;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img{
+  height: 150px;
+  padding: 0px 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+  padding:0px 24px;
+}
+.card-content p{
+  padding: 3px 4px;
+  font-size: 18px;
+}
+#sponsorSection{
+  height: 300px;
+  background: rgb(53, 51, 51);
+}
+#sponsorSection h2{
+  font-size: 32px;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+#sponsors{
+  height: 120px;
+  max-width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.spImage{
+  height: 80%;
+  margin: 41px;
+  padding: 0px;
+  margin-top: 38px;
+}
+
+#footer{
+   height: 40px;
+   background-color: rgb(206, 193, 193);
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 16px;
+   font-family: 'Shippori Antique B1', sans-serif;
+}
